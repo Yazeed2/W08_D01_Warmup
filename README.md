@@ -14,7 +14,7 @@ Your manager wants you to implement a *function* that, given :
 Try and use the [.Filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) method!
 
 
-Example: 
+Tests: 
 
 ```bash
 
@@ -25,6 +25,24 @@ customers = {
 'Ahmad' : [15, 15, 14], # Only has two orders of 15$ or more, so no pizza
 'Yasser' : [15, 15, 15], # Has three orders of 15$ or more, which means FREE PIZZA!
 'Ebere' : [120, 240], # Only has two orders of 15$ or more, so no pizza
+}
+
+```
+```bash
+min_orders = 2
+min_price = 50
+customers = {
+'Amal ' : [22, 67, 53, 29],
+'Fahad' : [51, 19]
+}
+```
+
+```bash
+min_orders = 5
+min_price = 20
+customers = {
+'Sarah' : [22, 30, 11, 17, 15, 52, 27, 12], 
+'Anas' : [5, 17, 30, 33, 40, 22, 26, 10, 11, 45]
 }
 
 ```
