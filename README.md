@@ -18,7 +18,7 @@ Example:
 
 ```bash
 
-Make at least 3 orders of at least 15$ each and get a free pizza!'''
+//Make at least 3 orders of at least 15$ each and get a free pizza!
 min_orders = 3
 min_price = 15
 customers = {
